@@ -10,6 +10,32 @@
 		A76BCB2D207DB3A6009B22F5 /* RCTUserLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCB28207DB3A6009B22F5 /* RCTUserLocation.m */; };
 		A76BCB2E207DB3A6009B22F5 /* RCTCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCB29207DB3A6009B22F5 /* RCTCoordinate.m */; };
 		A76BCB2F207DB3A6009B22F5 /* RCTConvert+BaiduMap.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCB2C207DB3A6009B22F5 /* RCTConvert+BaiduMap.m */; };
+		A76BCCF8207DC8B6009B22F5 /* RCTHeatMap.h in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCE1207DC8B2009B22F5 /* RCTHeatMap.h */; };
+		A76BCCF9207DC8B6009B22F5 /* RCTCircleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCE2207DC8B2009B22F5 /* RCTCircleManager.m */; };
+		A76BCCFA207DC8B6009B22F5 /* RCTOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCE3207DC8B3009B22F5 /* RCTOverlay.m */; };
+		A76BCCFB207DC8B6009B22F5 /* RCTPolygon.h in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCE4207DC8B3009B22F5 /* RCTPolygon.h */; };
+		A76BCCFC207DC8B6009B22F5 /* RCTPolyline.h in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCE5207DC8B3009B22F5 /* RCTPolyline.h */; };
+		A76BCCFD207DC8B6009B22F5 /* RCTPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCE6207DC8B3009B22F5 /* RCTPolygon.m */; };
+		A76BCCFE207DC8B6009B22F5 /* RCTMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCE7207DC8B3009B22F5 /* RCTMarker.m */; };
+		A76BCCFF207DC8B6009B22F5 /* RCTHeatMap.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCE8207DC8B3009B22F5 /* RCTHeatMap.m */; };
+		A76BCD00207DC8B6009B22F5 /* RCTMapView.h in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCE9207DC8B4009B22F5 /* RCTMapView.h */; };
+		A76BCD01207DC8B6009B22F5 /* RCTMarker.h in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCEA207DC8B4009B22F5 /* RCTMarker.h */; };
+		A76BCD02207DC8B6009B22F5 /* RCTMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCEB207DC8B4009B22F5 /* RCTMapView.m */; };
+		A76BCD03207DC8B6009B22F5 /* RCTMapViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCEC207DC8B4009B22F5 /* RCTMapViewManager.m */; };
+		A76BCD04207DC8B6009B22F5 /* RCTCalloutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCED207DC8B4009B22F5 /* RCTCalloutManager.m */; };
+		A76BCD05207DC8B6009B22F5 /* RCTOverlay.h in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCEE207DC8B4009B22F5 /* RCTOverlay.h */; };
+		A76BCD06207DC8B6009B22F5 /* RCTCircle.h in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCEF207DC8B5009B22F5 /* RCTCircle.h */; };
+		A76BCD07207DC8B6009B22F5 /* RCTHeatMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCF0207DC8B5009B22F5 /* RCTHeatMapManager.m */; };
+		A76BCD08207DC8B6009B22F5 /* RCTPolygonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCF1207DC8B5009B22F5 /* RCTPolygonManager.m */; };
+		A76BCD09207DC8B6009B22F5 /* RCTMarkerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCF2207DC8B5009B22F5 /* RCTMarkerManager.m */; };
+		A76BCD0A207DC8B6009B22F5 /* RCTCallout.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCF3207DC8B5009B22F5 /* RCTCallout.m */; };
+		A76BCD0B207DC8B6009B22F5 /* RCTPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCF4207DC8B5009B22F5 /* RCTPolyline.m */; };
+		A76BCD0C207DC8B6009B22F5 /* RCTPolylineManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCF5207DC8B6009B22F5 /* RCTPolylineManager.m */; };
+		A76BCD0D207DC8B6009B22F5 /* RCTCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCF6207DC8B6009B22F5 /* RCTCircle.m */; };
+		A76BCD0E207DC8B6009B22F5 /* RCTCallout.h in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCF7207DC8B6009B22F5 /* RCTCallout.h */; };
+		A76BCD12207DC8F8009B22F5 /* RCTInitializerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCD0F207DC8F7009B22F5 /* RCTInitializerModule.m */; };
+		A76BCD13207DC8F8009B22F5 /* RCTGeocodeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCD10207DC8F7009B22F5 /* RCTGeocodeModule.m */; };
+		A76BCD14207DC8F8009B22F5 /* RCTLocationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCD11207DC8F7009B22F5 /* RCTLocationModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +60,32 @@
 		A76BCB2A207DB3A6009B22F5 /* RCTUserLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTUserLocation.h; sourceTree = "<group>"; };
 		A76BCB2B207DB3A6009B22F5 /* Modules */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Modules; sourceTree = "<group>"; };
 		A76BCB2C207DB3A6009B22F5 /* RCTConvert+BaiduMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+BaiduMap.m"; sourceTree = "<group>"; };
+		A76BCCE1207DC8B2009B22F5 /* RCTHeatMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTHeatMap.h; path = RCTCozBaiduMap/MapView/RCTHeatMap.h; sourceTree = "<group>"; };
+		A76BCCE2207DC8B2009B22F5 /* RCTCircleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTCircleManager.m; path = RCTCozBaiduMap/MapView/RCTCircleManager.m; sourceTree = "<group>"; };
+		A76BCCE3207DC8B3009B22F5 /* RCTOverlay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTOverlay.m; path = RCTCozBaiduMap/MapView/RCTOverlay.m; sourceTree = "<group>"; };
+		A76BCCE4207DC8B3009B22F5 /* RCTPolygon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTPolygon.h; path = RCTCozBaiduMap/MapView/RCTPolygon.h; sourceTree = "<group>"; };
+		A76BCCE5207DC8B3009B22F5 /* RCTPolyline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTPolyline.h; path = RCTCozBaiduMap/MapView/RCTPolyline.h; sourceTree = "<group>"; };
+		A76BCCE6207DC8B3009B22F5 /* RCTPolygon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTPolygon.m; path = RCTCozBaiduMap/MapView/RCTPolygon.m; sourceTree = "<group>"; };
+		A76BCCE7207DC8B3009B22F5 /* RCTMarker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTMarker.m; path = RCTCozBaiduMap/MapView/RCTMarker.m; sourceTree = "<group>"; };
+		A76BCCE8207DC8B3009B22F5 /* RCTHeatMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTHeatMap.m; path = RCTCozBaiduMap/MapView/RCTHeatMap.m; sourceTree = "<group>"; };
+		A76BCCE9207DC8B4009B22F5 /* RCTMapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTMapView.h; path = RCTCozBaiduMap/MapView/RCTMapView.h; sourceTree = "<group>"; };
+		A76BCCEA207DC8B4009B22F5 /* RCTMarker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTMarker.h; path = RCTCozBaiduMap/MapView/RCTMarker.h; sourceTree = "<group>"; };
+		A76BCCEB207DC8B4009B22F5 /* RCTMapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTMapView.m; path = RCTCozBaiduMap/MapView/RCTMapView.m; sourceTree = "<group>"; };
+		A76BCCEC207DC8B4009B22F5 /* RCTMapViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTMapViewManager.m; path = RCTCozBaiduMap/MapView/RCTMapViewManager.m; sourceTree = "<group>"; };
+		A76BCCED207DC8B4009B22F5 /* RCTCalloutManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTCalloutManager.m; path = RCTCozBaiduMap/MapView/RCTCalloutManager.m; sourceTree = "<group>"; };
+		A76BCCEE207DC8B4009B22F5 /* RCTOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTOverlay.h; path = RCTCozBaiduMap/MapView/RCTOverlay.h; sourceTree = "<group>"; };
+		A76BCCEF207DC8B5009B22F5 /* RCTCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTCircle.h; path = RCTCozBaiduMap/MapView/RCTCircle.h; sourceTree = "<group>"; };
+		A76BCCF0207DC8B5009B22F5 /* RCTHeatMapManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTHeatMapManager.m; path = RCTCozBaiduMap/MapView/RCTHeatMapManager.m; sourceTree = "<group>"; };
+		A76BCCF1207DC8B5009B22F5 /* RCTPolygonManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTPolygonManager.m; path = RCTCozBaiduMap/MapView/RCTPolygonManager.m; sourceTree = "<group>"; };
+		A76BCCF2207DC8B5009B22F5 /* RCTMarkerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTMarkerManager.m; path = RCTCozBaiduMap/MapView/RCTMarkerManager.m; sourceTree = "<group>"; };
+		A76BCCF3207DC8B5009B22F5 /* RCTCallout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTCallout.m; path = RCTCozBaiduMap/MapView/RCTCallout.m; sourceTree = "<group>"; };
+		A76BCCF4207DC8B5009B22F5 /* RCTPolyline.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTPolyline.m; path = RCTCozBaiduMap/MapView/RCTPolyline.m; sourceTree = "<group>"; };
+		A76BCCF5207DC8B6009B22F5 /* RCTPolylineManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTPolylineManager.m; path = RCTCozBaiduMap/MapView/RCTPolylineManager.m; sourceTree = "<group>"; };
+		A76BCCF6207DC8B6009B22F5 /* RCTCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTCircle.m; path = RCTCozBaiduMap/MapView/RCTCircle.m; sourceTree = "<group>"; };
+		A76BCCF7207DC8B6009B22F5 /* RCTCallout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTCallout.h; path = RCTCozBaiduMap/MapView/RCTCallout.h; sourceTree = "<group>"; };
+		A76BCD0F207DC8F7009B22F5 /* RCTInitializerModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTInitializerModule.m; path = RCTCozBaiduMap/Modules/RCTInitializerModule.m; sourceTree = "<group>"; };
+		A76BCD10207DC8F7009B22F5 /* RCTGeocodeModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTGeocodeModule.m; path = RCTCozBaiduMap/Modules/RCTGeocodeModule.m; sourceTree = "<group>"; };
+		A76BCD11207DC8F7009B22F5 /* RCTLocationModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTLocationModule.m; path = RCTCozBaiduMap/Modules/RCTLocationModule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +102,32 @@
 		A76BCB10207DB30A009B22F5 = {
 			isa = PBXGroup;
 			children = (
+				A76BCD10207DC8F7009B22F5 /* RCTGeocodeModule.m */,
+				A76BCD0F207DC8F7009B22F5 /* RCTInitializerModule.m */,
+				A76BCD11207DC8F7009B22F5 /* RCTLocationModule.m */,
+				A76BCCF7207DC8B6009B22F5 /* RCTCallout.h */,
+				A76BCCF3207DC8B5009B22F5 /* RCTCallout.m */,
+				A76BCCED207DC8B4009B22F5 /* RCTCalloutManager.m */,
+				A76BCCEF207DC8B5009B22F5 /* RCTCircle.h */,
+				A76BCCF6207DC8B6009B22F5 /* RCTCircle.m */,
+				A76BCCE2207DC8B2009B22F5 /* RCTCircleManager.m */,
+				A76BCCE1207DC8B2009B22F5 /* RCTHeatMap.h */,
+				A76BCCE8207DC8B3009B22F5 /* RCTHeatMap.m */,
+				A76BCCF0207DC8B5009B22F5 /* RCTHeatMapManager.m */,
+				A76BCCE9207DC8B4009B22F5 /* RCTMapView.h */,
+				A76BCCEB207DC8B4009B22F5 /* RCTMapView.m */,
+				A76BCCEC207DC8B4009B22F5 /* RCTMapViewManager.m */,
+				A76BCCEA207DC8B4009B22F5 /* RCTMarker.h */,
+				A76BCCE7207DC8B3009B22F5 /* RCTMarker.m */,
+				A76BCCF2207DC8B5009B22F5 /* RCTMarkerManager.m */,
+				A76BCCEE207DC8B4009B22F5 /* RCTOverlay.h */,
+				A76BCCE3207DC8B3009B22F5 /* RCTOverlay.m */,
+				A76BCCE4207DC8B3009B22F5 /* RCTPolygon.h */,
+				A76BCCE6207DC8B3009B22F5 /* RCTPolygon.m */,
+				A76BCCF1207DC8B5009B22F5 /* RCTPolygonManager.m */,
+				A76BCCE5207DC8B3009B22F5 /* RCTPolyline.h */,
+				A76BCCF4207DC8B5009B22F5 /* RCTPolyline.m */,
+				A76BCCF5207DC8B6009B22F5 /* RCTPolylineManager.m */,
 				A76BCB1B207DB30A009B22F5 /* RCTCozBaiduMap */,
 				A76BCB1A207DB30A009B22F5 /* Products */,
 			);
@@ -134,6 +212,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A76BCD12207DC8F8009B22F5 /* RCTInitializerModule.m in Sources */,
+				A76BCD13207DC8F8009B22F5 /* RCTGeocodeModule.m in Sources */,
+				A76BCD14207DC8F8009B22F5 /* RCTLocationModule.m in Sources */,
+				A76BCCF8207DC8B6009B22F5 /* RCTHeatMap.h in Sources */,
+				A76BCCF9207DC8B6009B22F5 /* RCTCircleManager.m in Sources */,
+				A76BCCFA207DC8B6009B22F5 /* RCTOverlay.m in Sources */,
+				A76BCCFB207DC8B6009B22F5 /* RCTPolygon.h in Sources */,
+				A76BCCFC207DC8B6009B22F5 /* RCTPolyline.h in Sources */,
+				A76BCCFD207DC8B6009B22F5 /* RCTPolygon.m in Sources */,
+				A76BCCFE207DC8B6009B22F5 /* RCTMarker.m in Sources */,
+				A76BCCFF207DC8B6009B22F5 /* RCTHeatMap.m in Sources */,
+				A76BCD00207DC8B6009B22F5 /* RCTMapView.h in Sources */,
+				A76BCD01207DC8B6009B22F5 /* RCTMarker.h in Sources */,
+				A76BCD02207DC8B6009B22F5 /* RCTMapView.m in Sources */,
+				A76BCD03207DC8B6009B22F5 /* RCTMapViewManager.m in Sources */,
+				A76BCD04207DC8B6009B22F5 /* RCTCalloutManager.m in Sources */,
+				A76BCD05207DC8B6009B22F5 /* RCTOverlay.h in Sources */,
+				A76BCD06207DC8B6009B22F5 /* RCTCircle.h in Sources */,
+				A76BCD07207DC8B6009B22F5 /* RCTHeatMapManager.m in Sources */,
+				A76BCD08207DC8B6009B22F5 /* RCTPolygonManager.m in Sources */,
+				A76BCD09207DC8B6009B22F5 /* RCTMarkerManager.m in Sources */,
+				A76BCD0A207DC8B6009B22F5 /* RCTCallout.m in Sources */,
+				A76BCD0B207DC8B6009B22F5 /* RCTPolyline.m in Sources */,
+				A76BCD0C207DC8B6009B22F5 /* RCTPolylineManager.m in Sources */,
+				A76BCD0D207DC8B6009B22F5 /* RCTCircle.m in Sources */,
+				A76BCD0E207DC8B6009B22F5 /* RCTCallout.h in Sources */,
 				A76BCB2D207DB3A6009B22F5 /* RCTUserLocation.m in Sources */,
 				A76BCB2F207DB3A6009B22F5 /* RCTConvert+BaiduMap.m in Sources */,
 				A76BCB2E207DB3A6009B22F5 /* RCTCoordinate.m in Sources */,
@@ -258,6 +362,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GC4WG44LA9;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/libs";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../react-native/Libraries/**",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -270,6 +379,11 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GC4WG44LA9;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/libs";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../react-native/Libraries/**",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

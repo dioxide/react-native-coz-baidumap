@@ -3,5 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Coz",
-  "license": "MIT"
+  "license": "MIT",
+  "main": "js"
 }
