@@ -8,5 +8,6 @@
 @property(nonatomic, copy) RCTBubblingEventBlock onBaiduMapLongClick;
 @property(nonatomic, copy) RCTBubblingEventBlock onBaiduMapDoubleClick;
 @property(nonatomic, copy) RCTBubblingEventBlock onBaiduMapStatusChange;
+@property(nonatomic, copy) RCTBubblingEventBlock onBaiduMapRegionDidChange;//add
 
 @end

@@ -16,6 +16,7 @@
     self = [super init];
     self.delegate = self;
     self.showMapScaleBar = YES;
+    self.ChangeCenterWithDoubleTouchPointEnabled = NO;//双击手势放大地图时, 设置为YES, 地图中心点移动至点击处; 设置为NO，地图中心点不变；默认为YES;
     return self;
 }
 
@@ -118,9 +119,31 @@
     }
 }
 
-- (void)mapView:(RCTMapView *)mapView regionDidChangeAnimated:(BOOL)animated {
+//add mapStatusDidChanged
+- (void)mapStatusDidChanged: (BMKMapView *)mapView
+{
     if (self.onBaiduMapStatusChange) {
         self.onBaiduMapStatusChange(@{
+                                      @"center": @{
+                                              @"latitude": @(self.centerCoordinate.latitude),
+                                              @"longitude": @(self.centerCoordinate.longitude),
+                                              },
+                                      @"region": @{
+                                              @"latitude": @(self.region.center.latitude),
+                                              @"longitude": @(self.region.center.longitude),
+                                              @"latitudeDelta": @(self.region.span.latitudeDelta),
+                                              @"longitudeDelta": @(self.region.span.longitudeDelta),
+                                              },
+                                      @"zoomLevel": @(self.zoomLevel),
+                                      @"rotation": @(self.rotation),
+                                      @"overlook": @(self.overlooking),
+                                      });
+    }
+}
+
+- (void)mapView:(RCTMapView *)mapView regionDidChangeAnimated:(BOOL)animated {
+    if (self.onBaiduMapRegionDidChange) {
+        self.onBaiduMapRegionDidChange(@{
             @"center": @{
                 @"latitude": @(self.centerCoordinate.latitude),
                 @"longitude": @(self.centerCoordinate.longitude),

@@ -7,35 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A76BCB2D207DB3A6009B22F5 /* RCTUserLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCB28207DB3A6009B22F5 /* RCTUserLocation.m */; };
-		A76BCB2E207DB3A6009B22F5 /* RCTCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCB29207DB3A6009B22F5 /* RCTCoordinate.m */; };
-		A76BCB2F207DB3A6009B22F5 /* RCTConvert+BaiduMap.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCB2C207DB3A6009B22F5 /* RCTConvert+BaiduMap.m */; };
-		A76BCCF8207DC8B6009B22F5 /* RCTHeatMap.h in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCE1207DC8B2009B22F5 /* RCTHeatMap.h */; };
-		A76BCCF9207DC8B6009B22F5 /* RCTCircleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCE2207DC8B2009B22F5 /* RCTCircleManager.m */; };
-		A76BCCFA207DC8B6009B22F5 /* RCTOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCE3207DC8B3009B22F5 /* RCTOverlay.m */; };
-		A76BCCFB207DC8B6009B22F5 /* RCTPolygon.h in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCE4207DC8B3009B22F5 /* RCTPolygon.h */; };
-		A76BCCFC207DC8B6009B22F5 /* RCTPolyline.h in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCE5207DC8B3009B22F5 /* RCTPolyline.h */; };
-		A76BCCFD207DC8B6009B22F5 /* RCTPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCE6207DC8B3009B22F5 /* RCTPolygon.m */; };
-		A76BCCFE207DC8B6009B22F5 /* RCTMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCE7207DC8B3009B22F5 /* RCTMarker.m */; };
-		A76BCCFF207DC8B6009B22F5 /* RCTHeatMap.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCE8207DC8B3009B22F5 /* RCTHeatMap.m */; };
-		A76BCD00207DC8B6009B22F5 /* RCTMapView.h in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCE9207DC8B4009B22F5 /* RCTMapView.h */; };
-		A76BCD01207DC8B6009B22F5 /* RCTMarker.h in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCEA207DC8B4009B22F5 /* RCTMarker.h */; };
-		A76BCD02207DC8B6009B22F5 /* RCTMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCEB207DC8B4009B22F5 /* RCTMapView.m */; };
-		A76BCD03207DC8B6009B22F5 /* RCTMapViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCEC207DC8B4009B22F5 /* RCTMapViewManager.m */; };
-		A76BCD04207DC8B6009B22F5 /* RCTCalloutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCED207DC8B4009B22F5 /* RCTCalloutManager.m */; };
-		A76BCD05207DC8B6009B22F5 /* RCTOverlay.h in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCEE207DC8B4009B22F5 /* RCTOverlay.h */; };
-		A76BCD06207DC8B6009B22F5 /* RCTCircle.h in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCEF207DC8B5009B22F5 /* RCTCircle.h */; };
-		A76BCD07207DC8B6009B22F5 /* RCTHeatMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCF0207DC8B5009B22F5 /* RCTHeatMapManager.m */; };
-		A76BCD08207DC8B6009B22F5 /* RCTPolygonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCF1207DC8B5009B22F5 /* RCTPolygonManager.m */; };
-		A76BCD09207DC8B6009B22F5 /* RCTMarkerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCF2207DC8B5009B22F5 /* RCTMarkerManager.m */; };
-		A76BCD0A207DC8B6009B22F5 /* RCTCallout.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCF3207DC8B5009B22F5 /* RCTCallout.m */; };
-		A76BCD0B207DC8B6009B22F5 /* RCTPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCF4207DC8B5009B22F5 /* RCTPolyline.m */; };
-		A76BCD0C207DC8B6009B22F5 /* RCTPolylineManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCF5207DC8B6009B22F5 /* RCTPolylineManager.m */; };
-		A76BCD0D207DC8B6009B22F5 /* RCTCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCF6207DC8B6009B22F5 /* RCTCircle.m */; };
-		A76BCD0E207DC8B6009B22F5 /* RCTCallout.h in Sources */ = {isa = PBXBuildFile; fileRef = A76BCCF7207DC8B6009B22F5 /* RCTCallout.h */; };
-		A76BCD12207DC8F8009B22F5 /* RCTInitializerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCD0F207DC8F7009B22F5 /* RCTInitializerModule.m */; };
-		A76BCD13207DC8F8009B22F5 /* RCTGeocodeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCD10207DC8F7009B22F5 /* RCTGeocodeModule.m */; };
-		A76BCD14207DC8F8009B22F5 /* RCTLocationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A76BCD11207DC8F7009B22F5 /* RCTLocationModule.m */; };
+		A7E1A823207E5BD8004E5949 /* RCTUserLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1A81E207E5BD8004E5949 /* RCTUserLocation.m */; };
+		A7E1A824207E5BD8004E5949 /* RCTCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1A81F207E5BD8004E5949 /* RCTCoordinate.m */; };
+		A7E1A825207E5BD8004E5949 /* RCTConvert+BaiduMap.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1A820207E5BD8004E5949 /* RCTConvert+BaiduMap.m */; };
+		A7E1A83E207E5C17004E5949 /* RCTCallout.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1A827207E5C14004E5949 /* RCTCallout.m */; };
+		A7E1A83F207E5C17004E5949 /* RCTOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1A828207E5C14004E5949 /* RCTOverlay.m */; };
+		A7E1A840207E5C17004E5949 /* RCTMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1A829207E5C15004E5949 /* RCTMarker.m */; };
+		A7E1A841207E5C17004E5949 /* RCTPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1A82A207E5C15004E5949 /* RCTPolyline.m */; };
+		A7E1A842207E5C17004E5949 /* RCTCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1A82B207E5C15004E5949 /* RCTCircle.m */; };
+		A7E1A843207E5C17004E5949 /* RCTCalloutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1A82C207E5C15004E5949 /* RCTCalloutManager.m */; };
+		A7E1A844207E5C17004E5949 /* RCTHeatMap.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1A82D207E5C15004E5949 /* RCTHeatMap.m */; };
+		A7E1A845207E5C17004E5949 /* RCTCircleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1A833207E5C16004E5949 /* RCTCircleManager.m */; };
+		A7E1A846207E5C17004E5949 /* RCTHeatMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1A834207E5C16004E5949 /* RCTHeatMapManager.m */; };
+		A7E1A847207E5C17004E5949 /* RCTMapViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1A835207E5C16004E5949 /* RCTMapViewManager.m */; };
+		A7E1A848207E5C17004E5949 /* RCTMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1A836207E5C16004E5949 /* RCTMapView.m */; };
+		A7E1A849207E5C17004E5949 /* RCTPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1A839207E5C16004E5949 /* RCTPolygon.m */; };
+		A7E1A84A207E5C17004E5949 /* RCTMarkerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1A83B207E5C17004E5949 /* RCTMarkerManager.m */; };
+		A7E1A84B207E5C17004E5949 /* RCTPolylineManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1A83C207E5C17004E5949 /* RCTPolylineManager.m */; };
+		A7E1A84C207E5C17004E5949 /* RCTPolygonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1A83D207E5C17004E5949 /* RCTPolygonManager.m */; };
+		A7E1A851207E5C7F004E5949 /* RCTLocationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1A84E207E5C7E004E5949 /* RCTLocationModule.m */; };
+		A7E1A852207E5C7F004E5949 /* RCTGeocodeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1A84F207E5C7F004E5949 /* RCTGeocodeModule.m */; };
+		A7E1A853207E5C7F004E5949 /* RCTInitializerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1A850207E5C7F004E5949 /* RCTInitializerModule.m */; };
+		A7E1AA38207E7D7F004E5949 /* RCTMarker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A7E1A9E7207E7AE6004E5949 /* RCTMarker.bundle */; };
+		A7E1AA41207E7EAD004E5949 /* marker@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E1AA3F207E7EAD004E5949 /* marker@3x.png */; };
+		A7E1AA42207E7EAD004E5949 /* marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E1AA40207E7EAD004E5949 /* marker@2x.png */; };
+		A7E1AA44207EAEE0004E5949 /* RCTRouteModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = A7E1AA43207EAEE0004E5949 /* RCTRouteModule.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,40 +48,41 @@
 
 /* Begin PBXFileReference section */
 		A76BCB19207DB30A009B22F5 /* libRCTCozBaiduMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTCozBaiduMap.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A76BCB25207DB3A6009B22F5 /* RCTCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTCoordinate.h; sourceTree = "<group>"; };
-		A76BCB26207DB3A6009B22F5 /* MapView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MapView; sourceTree = "<group>"; };
-		A76BCB27207DB3A6009B22F5 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
-		A76BCB28207DB3A6009B22F5 /* RCTUserLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTUserLocation.m; sourceTree = "<group>"; };
-		A76BCB29207DB3A6009B22F5 /* RCTCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTCoordinate.m; sourceTree = "<group>"; };
-		A76BCB2A207DB3A6009B22F5 /* RCTUserLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTUserLocation.h; sourceTree = "<group>"; };
-		A76BCB2B207DB3A6009B22F5 /* Modules */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Modules; sourceTree = "<group>"; };
-		A76BCB2C207DB3A6009B22F5 /* RCTConvert+BaiduMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+BaiduMap.m"; sourceTree = "<group>"; };
-		A76BCCE1207DC8B2009B22F5 /* RCTHeatMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTHeatMap.h; path = RCTCozBaiduMap/MapView/RCTHeatMap.h; sourceTree = "<group>"; };
-		A76BCCE2207DC8B2009B22F5 /* RCTCircleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTCircleManager.m; path = RCTCozBaiduMap/MapView/RCTCircleManager.m; sourceTree = "<group>"; };
-		A76BCCE3207DC8B3009B22F5 /* RCTOverlay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTOverlay.m; path = RCTCozBaiduMap/MapView/RCTOverlay.m; sourceTree = "<group>"; };
-		A76BCCE4207DC8B3009B22F5 /* RCTPolygon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTPolygon.h; path = RCTCozBaiduMap/MapView/RCTPolygon.h; sourceTree = "<group>"; };
-		A76BCCE5207DC8B3009B22F5 /* RCTPolyline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTPolyline.h; path = RCTCozBaiduMap/MapView/RCTPolyline.h; sourceTree = "<group>"; };
-		A76BCCE6207DC8B3009B22F5 /* RCTPolygon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTPolygon.m; path = RCTCozBaiduMap/MapView/RCTPolygon.m; sourceTree = "<group>"; };
-		A76BCCE7207DC8B3009B22F5 /* RCTMarker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTMarker.m; path = RCTCozBaiduMap/MapView/RCTMarker.m; sourceTree = "<group>"; };
-		A76BCCE8207DC8B3009B22F5 /* RCTHeatMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTHeatMap.m; path = RCTCozBaiduMap/MapView/RCTHeatMap.m; sourceTree = "<group>"; };
-		A76BCCE9207DC8B4009B22F5 /* RCTMapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTMapView.h; path = RCTCozBaiduMap/MapView/RCTMapView.h; sourceTree = "<group>"; };
-		A76BCCEA207DC8B4009B22F5 /* RCTMarker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTMarker.h; path = RCTCozBaiduMap/MapView/RCTMarker.h; sourceTree = "<group>"; };
-		A76BCCEB207DC8B4009B22F5 /* RCTMapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTMapView.m; path = RCTCozBaiduMap/MapView/RCTMapView.m; sourceTree = "<group>"; };
-		A76BCCEC207DC8B4009B22F5 /* RCTMapViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTMapViewManager.m; path = RCTCozBaiduMap/MapView/RCTMapViewManager.m; sourceTree = "<group>"; };
-		A76BCCED207DC8B4009B22F5 /* RCTCalloutManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTCalloutManager.m; path = RCTCozBaiduMap/MapView/RCTCalloutManager.m; sourceTree = "<group>"; };
-		A76BCCEE207DC8B4009B22F5 /* RCTOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTOverlay.h; path = RCTCozBaiduMap/MapView/RCTOverlay.h; sourceTree = "<group>"; };
-		A76BCCEF207DC8B5009B22F5 /* RCTCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTCircle.h; path = RCTCozBaiduMap/MapView/RCTCircle.h; sourceTree = "<group>"; };
-		A76BCCF0207DC8B5009B22F5 /* RCTHeatMapManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTHeatMapManager.m; path = RCTCozBaiduMap/MapView/RCTHeatMapManager.m; sourceTree = "<group>"; };
-		A76BCCF1207DC8B5009B22F5 /* RCTPolygonManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTPolygonManager.m; path = RCTCozBaiduMap/MapView/RCTPolygonManager.m; sourceTree = "<group>"; };
-		A76BCCF2207DC8B5009B22F5 /* RCTMarkerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTMarkerManager.m; path = RCTCozBaiduMap/MapView/RCTMarkerManager.m; sourceTree = "<group>"; };
-		A76BCCF3207DC8B5009B22F5 /* RCTCallout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTCallout.m; path = RCTCozBaiduMap/MapView/RCTCallout.m; sourceTree = "<group>"; };
-		A76BCCF4207DC8B5009B22F5 /* RCTPolyline.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTPolyline.m; path = RCTCozBaiduMap/MapView/RCTPolyline.m; sourceTree = "<group>"; };
-		A76BCCF5207DC8B6009B22F5 /* RCTPolylineManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTPolylineManager.m; path = RCTCozBaiduMap/MapView/RCTPolylineManager.m; sourceTree = "<group>"; };
-		A76BCCF6207DC8B6009B22F5 /* RCTCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTCircle.m; path = RCTCozBaiduMap/MapView/RCTCircle.m; sourceTree = "<group>"; };
-		A76BCCF7207DC8B6009B22F5 /* RCTCallout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTCallout.h; path = RCTCozBaiduMap/MapView/RCTCallout.h; sourceTree = "<group>"; };
-		A76BCD0F207DC8F7009B22F5 /* RCTInitializerModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTInitializerModule.m; path = RCTCozBaiduMap/Modules/RCTInitializerModule.m; sourceTree = "<group>"; };
-		A76BCD10207DC8F7009B22F5 /* RCTGeocodeModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTGeocodeModule.m; path = RCTCozBaiduMap/Modules/RCTGeocodeModule.m; sourceTree = "<group>"; };
-		A76BCD11207DC8F7009B22F5 /* RCTLocationModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTLocationModule.m; path = RCTCozBaiduMap/Modules/RCTLocationModule.m; sourceTree = "<group>"; };
+		A7E1A81E207E5BD8004E5949 /* RCTUserLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTUserLocation.m; sourceTree = "<group>"; };
+		A7E1A81F207E5BD8004E5949 /* RCTCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTCoordinate.m; sourceTree = "<group>"; };
+		A7E1A820207E5BD8004E5949 /* RCTConvert+BaiduMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+BaiduMap.m"; sourceTree = "<group>"; };
+		A7E1A821207E5BD8004E5949 /* RCTUserLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTUserLocation.h; sourceTree = "<group>"; };
+		A7E1A822207E5BD8004E5949 /* RCTCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTCoordinate.h; sourceTree = "<group>"; };
+		A7E1A827207E5C14004E5949 /* RCTCallout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTCallout.m; sourceTree = "<group>"; };
+		A7E1A828207E5C14004E5949 /* RCTOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTOverlay.m; sourceTree = "<group>"; };
+		A7E1A829207E5C15004E5949 /* RCTMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTMarker.m; sourceTree = "<group>"; };
+		A7E1A82A207E5C15004E5949 /* RCTPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTPolyline.m; sourceTree = "<group>"; };
+		A7E1A82B207E5C15004E5949 /* RCTCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTCircle.m; sourceTree = "<group>"; };
+		A7E1A82C207E5C15004E5949 /* RCTCalloutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTCalloutManager.m; sourceTree = "<group>"; };
+		A7E1A82D207E5C15004E5949 /* RCTHeatMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTHeatMap.m; sourceTree = "<group>"; };
+		A7E1A82E207E5C15004E5949 /* RCTCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTCircle.h; sourceTree = "<group>"; };
+		A7E1A82F207E5C15004E5949 /* RCTHeatMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTHeatMap.h; sourceTree = "<group>"; };
+		A7E1A830207E5C15004E5949 /* RCTMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTMapView.h; sourceTree = "<group>"; };
+		A7E1A831207E5C15004E5949 /* RCTCallout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTCallout.h; sourceTree = "<group>"; };
+		A7E1A832207E5C15004E5949 /* RCTOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTOverlay.h; sourceTree = "<group>"; };
+		A7E1A833207E5C16004E5949 /* RCTCircleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTCircleManager.m; sourceTree = "<group>"; };
+		A7E1A834207E5C16004E5949 /* RCTHeatMapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTHeatMapManager.m; sourceTree = "<group>"; };
+		A7E1A835207E5C16004E5949 /* RCTMapViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTMapViewManager.m; sourceTree = "<group>"; };
+		A7E1A836207E5C16004E5949 /* RCTMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTMapView.m; sourceTree = "<group>"; };
+		A7E1A837207E5C16004E5949 /* RCTMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTMarker.h; sourceTree = "<group>"; };
+		A7E1A838207E5C16004E5949 /* RCTPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTPolygon.h; sourceTree = "<group>"; };
+		A7E1A839207E5C16004E5949 /* RCTPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTPolygon.m; sourceTree = "<group>"; };
+		A7E1A83A207E5C17004E5949 /* RCTPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTPolyline.h; sourceTree = "<group>"; };
+		A7E1A83B207E5C17004E5949 /* RCTMarkerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTMarkerManager.m; sourceTree = "<group>"; };
+		A7E1A83C207E5C17004E5949 /* RCTPolylineManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTPolylineManager.m; sourceTree = "<group>"; };
+		A7E1A83D207E5C17004E5949 /* RCTPolygonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTPolygonManager.m; sourceTree = "<group>"; };
+		A7E1A84E207E5C7E004E5949 /* RCTLocationModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTLocationModule.m; sourceTree = "<group>"; };
+		A7E1A84F207E5C7F004E5949 /* RCTGeocodeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTGeocodeModule.m; sourceTree = "<group>"; };
+		A7E1A850207E5C7F004E5949 /* RCTInitializerModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTInitializerModule.m; sourceTree = "<group>"; };
+		A7E1A9E7207E7AE6004E5949 /* RCTMarker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RCTMarker.bundle; sourceTree = "<group>"; };
+		A7E1AA3F207E7EAD004E5949 /* marker@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker@3x.png"; sourceTree = "<group>"; };
+		A7E1AA40207E7EAD004E5949 /* marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker@2x.png"; sourceTree = "<group>"; };
+		A7E1AA43207EAEE0004E5949 /* RCTRouteModule.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RCTRouteModule.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,33 +99,7 @@
 		A76BCB10207DB30A009B22F5 = {
 			isa = PBXGroup;
 			children = (
-				A76BCD10207DC8F7009B22F5 /* RCTGeocodeModule.m */,
-				A76BCD0F207DC8F7009B22F5 /* RCTInitializerModule.m */,
-				A76BCD11207DC8F7009B22F5 /* RCTLocationModule.m */,
-				A76BCCF7207DC8B6009B22F5 /* RCTCallout.h */,
-				A76BCCF3207DC8B5009B22F5 /* RCTCallout.m */,
-				A76BCCED207DC8B4009B22F5 /* RCTCalloutManager.m */,
-				A76BCCEF207DC8B5009B22F5 /* RCTCircle.h */,
-				A76BCCF6207DC8B6009B22F5 /* RCTCircle.m */,
-				A76BCCE2207DC8B2009B22F5 /* RCTCircleManager.m */,
-				A76BCCE1207DC8B2009B22F5 /* RCTHeatMap.h */,
-				A76BCCE8207DC8B3009B22F5 /* RCTHeatMap.m */,
-				A76BCCF0207DC8B5009B22F5 /* RCTHeatMapManager.m */,
-				A76BCCE9207DC8B4009B22F5 /* RCTMapView.h */,
-				A76BCCEB207DC8B4009B22F5 /* RCTMapView.m */,
-				A76BCCEC207DC8B4009B22F5 /* RCTMapViewManager.m */,
-				A76BCCEA207DC8B4009B22F5 /* RCTMarker.h */,
-				A76BCCE7207DC8B3009B22F5 /* RCTMarker.m */,
-				A76BCCF2207DC8B5009B22F5 /* RCTMarkerManager.m */,
-				A76BCCEE207DC8B4009B22F5 /* RCTOverlay.h */,
-				A76BCCE3207DC8B3009B22F5 /* RCTOverlay.m */,
-				A76BCCE4207DC8B3009B22F5 /* RCTPolygon.h */,
-				A76BCCE6207DC8B3009B22F5 /* RCTPolygon.m */,
-				A76BCCF1207DC8B5009B22F5 /* RCTPolygonManager.m */,
-				A76BCCE5207DC8B3009B22F5 /* RCTPolyline.h */,
-				A76BCCF4207DC8B5009B22F5 /* RCTPolyline.m */,
-				A76BCCF5207DC8B6009B22F5 /* RCTPolylineManager.m */,
-				A76BCB1B207DB30A009B22F5 /* RCTCozBaiduMap */,
+				A7E1A81D207E5B78004E5949 /* RCTCozBaiduMap */,
 				A76BCB1A207DB30A009B22F5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -141,19 +112,70 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A76BCB1B207DB30A009B22F5 /* RCTCozBaiduMap */ = {
+		A7E1A81D207E5B78004E5949 /* RCTCozBaiduMap */ = {
 			isa = PBXGroup;
 			children = (
-				A76BCB26207DB3A6009B22F5 /* MapView */,
-				A76BCB2B207DB3A6009B22F5 /* Modules */,
-				A76BCB2C207DB3A6009B22F5 /* RCTConvert+BaiduMap.m */,
-				A76BCB25207DB3A6009B22F5 /* RCTCoordinate.h */,
-				A76BCB29207DB3A6009B22F5 /* RCTCoordinate.m */,
-				A76BCB2A207DB3A6009B22F5 /* RCTUserLocation.h */,
-				A76BCB28207DB3A6009B22F5 /* RCTUserLocation.m */,
-				A76BCB27207DB3A6009B22F5 /* Resources */,
+				A7E1A854207E5C95004E5949 /* Resources */,
+				A7E1A84D207E5C3D004E5949 /* Modules */,
+				A7E1A826207E5BF2004E5949 /* MapView */,
+				A7E1A820207E5BD8004E5949 /* RCTConvert+BaiduMap.m */,
+				A7E1A822207E5BD8004E5949 /* RCTCoordinate.h */,
+				A7E1A81F207E5BD8004E5949 /* RCTCoordinate.m */,
+				A7E1A821207E5BD8004E5949 /* RCTUserLocation.h */,
+				A7E1A81E207E5BD8004E5949 /* RCTUserLocation.m */,
 			);
 			path = RCTCozBaiduMap;
+			sourceTree = "<group>";
+		};
+		A7E1A826207E5BF2004E5949 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				A7E1A831207E5C15004E5949 /* RCTCallout.h */,
+				A7E1A827207E5C14004E5949 /* RCTCallout.m */,
+				A7E1A82C207E5C15004E5949 /* RCTCalloutManager.m */,
+				A7E1A82E207E5C15004E5949 /* RCTCircle.h */,
+				A7E1A82B207E5C15004E5949 /* RCTCircle.m */,
+				A7E1A833207E5C16004E5949 /* RCTCircleManager.m */,
+				A7E1A82F207E5C15004E5949 /* RCTHeatMap.h */,
+				A7E1A82D207E5C15004E5949 /* RCTHeatMap.m */,
+				A7E1A834207E5C16004E5949 /* RCTHeatMapManager.m */,
+				A7E1A830207E5C15004E5949 /* RCTMapView.h */,
+				A7E1A836207E5C16004E5949 /* RCTMapView.m */,
+				A7E1A835207E5C16004E5949 /* RCTMapViewManager.m */,
+				A7E1A837207E5C16004E5949 /* RCTMarker.h */,
+				A7E1A829207E5C15004E5949 /* RCTMarker.m */,
+				A7E1A83B207E5C17004E5949 /* RCTMarkerManager.m */,
+				A7E1A832207E5C15004E5949 /* RCTOverlay.h */,
+				A7E1A828207E5C14004E5949 /* RCTOverlay.m */,
+				A7E1A838207E5C16004E5949 /* RCTPolygon.h */,
+				A7E1A839207E5C16004E5949 /* RCTPolygon.m */,
+				A7E1A83D207E5C17004E5949 /* RCTPolygonManager.m */,
+				A7E1A83A207E5C17004E5949 /* RCTPolyline.h */,
+				A7E1A82A207E5C15004E5949 /* RCTPolyline.m */,
+				A7E1A83C207E5C17004E5949 /* RCTPolylineManager.m */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		A7E1A84D207E5C3D004E5949 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A7E1A84F207E5C7F004E5949 /* RCTGeocodeModule.m */,
+				A7E1A850207E5C7F004E5949 /* RCTInitializerModule.m */,
+				A7E1A84E207E5C7E004E5949 /* RCTLocationModule.m */,
+				A7E1AA43207EAEE0004E5949 /* RCTRouteModule.mm */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A7E1A854207E5C95004E5949 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7E1AA40207E7EAD004E5949 /* marker@2x.png */,
+				A7E1AA3F207E7EAD004E5949 /* marker@3x.png */,
+				A7E1A9E7207E7AE6004E5949 /* RCTMarker.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +188,7 @@
 				A76BCB15207DB30A009B22F5 /* Sources */,
 				A76BCB16207DB30A009B22F5 /* Frameworks */,
 				A76BCB17207DB30A009B22F5 /* CopyFiles */,
+				A7E1AA37207E7D72004E5949 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -207,40 +230,46 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		A7E1AA37207E7D72004E5949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E1AA38207E7D7F004E5949 /* RCTMarker.bundle in Resources */,
+				A7E1AA42207E7EAD004E5949 /* marker@2x.png in Resources */,
+				A7E1AA41207E7EAD004E5949 /* marker@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A76BCB15207DB30A009B22F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A76BCD12207DC8F8009B22F5 /* RCTInitializerModule.m in Sources */,
-				A76BCD13207DC8F8009B22F5 /* RCTGeocodeModule.m in Sources */,
-				A76BCD14207DC8F8009B22F5 /* RCTLocationModule.m in Sources */,
-				A76BCCF8207DC8B6009B22F5 /* RCTHeatMap.h in Sources */,
-				A76BCCF9207DC8B6009B22F5 /* RCTCircleManager.m in Sources */,
-				A76BCCFA207DC8B6009B22F5 /* RCTOverlay.m in Sources */,
-				A76BCCFB207DC8B6009B22F5 /* RCTPolygon.h in Sources */,
-				A76BCCFC207DC8B6009B22F5 /* RCTPolyline.h in Sources */,
-				A76BCCFD207DC8B6009B22F5 /* RCTPolygon.m in Sources */,
-				A76BCCFE207DC8B6009B22F5 /* RCTMarker.m in Sources */,
-				A76BCCFF207DC8B6009B22F5 /* RCTHeatMap.m in Sources */,
-				A76BCD00207DC8B6009B22F5 /* RCTMapView.h in Sources */,
-				A76BCD01207DC8B6009B22F5 /* RCTMarker.h in Sources */,
-				A76BCD02207DC8B6009B22F5 /* RCTMapView.m in Sources */,
-				A76BCD03207DC8B6009B22F5 /* RCTMapViewManager.m in Sources */,
-				A76BCD04207DC8B6009B22F5 /* RCTCalloutManager.m in Sources */,
-				A76BCD05207DC8B6009B22F5 /* RCTOverlay.h in Sources */,
-				A76BCD06207DC8B6009B22F5 /* RCTCircle.h in Sources */,
-				A76BCD07207DC8B6009B22F5 /* RCTHeatMapManager.m in Sources */,
-				A76BCD08207DC8B6009B22F5 /* RCTPolygonManager.m in Sources */,
-				A76BCD09207DC8B6009B22F5 /* RCTMarkerManager.m in Sources */,
-				A76BCD0A207DC8B6009B22F5 /* RCTCallout.m in Sources */,
-				A76BCD0B207DC8B6009B22F5 /* RCTPolyline.m in Sources */,
-				A76BCD0C207DC8B6009B22F5 /* RCTPolylineManager.m in Sources */,
-				A76BCD0D207DC8B6009B22F5 /* RCTCircle.m in Sources */,
-				A76BCD0E207DC8B6009B22F5 /* RCTCallout.h in Sources */,
-				A76BCB2D207DB3A6009B22F5 /* RCTUserLocation.m in Sources */,
-				A76BCB2F207DB3A6009B22F5 /* RCTConvert+BaiduMap.m in Sources */,
-				A76BCB2E207DB3A6009B22F5 /* RCTCoordinate.m in Sources */,
+				A7E1A844207E5C17004E5949 /* RCTHeatMap.m in Sources */,
+				A7E1A853207E5C7F004E5949 /* RCTInitializerModule.m in Sources */,
+				A7E1A84B207E5C17004E5949 /* RCTPolylineManager.m in Sources */,
+				A7E1A847207E5C17004E5949 /* RCTMapViewManager.m in Sources */,
+				A7E1A83E207E5C17004E5949 /* RCTCallout.m in Sources */,
+				A7E1A84A207E5C17004E5949 /* RCTMarkerManager.m in Sources */,
+				A7E1A845207E5C17004E5949 /* RCTCircleManager.m in Sources */,
+				A7E1A852207E5C7F004E5949 /* RCTGeocodeModule.m in Sources */,
+				A7E1A843207E5C17004E5949 /* RCTCalloutManager.m in Sources */,
+				A7E1A848207E5C17004E5949 /* RCTMapView.m in Sources */,
+				A7E1A84C207E5C17004E5949 /* RCTPolygonManager.m in Sources */,
+				A7E1A842207E5C17004E5949 /* RCTCircle.m in Sources */,
+				A7E1A83F207E5C17004E5949 /* RCTOverlay.m in Sources */,
+				A7E1AA44207EAEE0004E5949 /* RCTRouteModule.mm in Sources */,
+				A7E1A846207E5C17004E5949 /* RCTHeatMapManager.m in Sources */,
+				A7E1A823207E5BD8004E5949 /* RCTUserLocation.m in Sources */,
+				A7E1A825207E5BD8004E5949 /* RCTConvert+BaiduMap.m in Sources */,
+				A7E1A824207E5BD8004E5949 /* RCTCoordinate.m in Sources */,
+				A7E1A840207E5C17004E5949 /* RCTMarker.m in Sources */,
+				A7E1A849207E5C17004E5949 /* RCTPolygon.m in Sources */,
+				A7E1A851207E5C7F004E5949 /* RCTLocationModule.m in Sources */,
+				A7E1A841207E5C17004E5949 /* RCTPolyline.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +395,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/../../react-native/Libraries/**",
+					"$(SRCROOT)/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -383,6 +413,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/../../react-native/Libraries/**",
+					"$(SRCROOT)/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";

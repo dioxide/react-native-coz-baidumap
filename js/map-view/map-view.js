@@ -44,6 +44,7 @@ type Props = {
   onLongClick?: LatLng => {},
   onDoubleClick?: LatLng => {},
   onStatusChange?: MapStatus => {},
+  onRegionDidChange?: MapStatus => {},
 } & ViewPropTypes
 
 const events = [
@@ -52,6 +53,7 @@ const events = [
   'onLongClick',
   'onDoubleClick',
   'onStatusChange',
+  'onRegionDidChange'
 ]
 
 export default class MapView extends Component<Props> {
