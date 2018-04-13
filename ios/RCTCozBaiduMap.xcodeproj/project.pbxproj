@@ -32,6 +32,16 @@
 		A7E1AA41207E7EAD004E5949 /* marker@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E1AA3F207E7EAD004E5949 /* marker@3x.png */; };
 		A7E1AA42207E7EAD004E5949 /* marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E1AA40207E7EAD004E5949 /* marker@2x.png */; };
 		A7E1AA44207EAEE0004E5949 /* RCTRouteModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = A7E1AA43207EAEE0004E5949 /* RCTRouteModule.mm */; };
+		A7E1AA47207EFFB4004E5949 /* RCTCallout.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7E1A831207E5C15004E5949 /* RCTCallout.h */; };
+		A7E1AA48207EFFB4004E5949 /* RCTCircle.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7E1A82E207E5C15004E5949 /* RCTCircle.h */; };
+		A7E1AA49207EFFB4004E5949 /* RCTHeatMap.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7E1A82F207E5C15004E5949 /* RCTHeatMap.h */; };
+		A7E1AA4A207EFFB4004E5949 /* RCTMapView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7E1A830207E5C15004E5949 /* RCTMapView.h */; };
+		A7E1AA4B207EFFB4004E5949 /* RCTMarker.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7E1A837207E5C16004E5949 /* RCTMarker.h */; };
+		A7E1AA4C207EFFB4004E5949 /* RCTOverlay.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7E1A832207E5C15004E5949 /* RCTOverlay.h */; };
+		A7E1AA4D207EFFB4004E5949 /* RCTPolygon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7E1A838207E5C16004E5949 /* RCTPolygon.h */; };
+		A7E1AA4E207EFFB4004E5949 /* RCTPolyline.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7E1A83A207E5C17004E5949 /* RCTPolyline.h */; };
+		A7E1AA4F207EFFB4004E5949 /* RCTCoordinate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7E1A822207E5BD8004E5949 /* RCTCoordinate.h */; };
+		A7E1AA50207EFFB4004E5949 /* RCTUserLocation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7E1A821207E5BD8004E5949 /* RCTUserLocation.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +51,16 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				A7E1AA47207EFFB4004E5949 /* RCTCallout.h in CopyFiles */,
+				A7E1AA48207EFFB4004E5949 /* RCTCircle.h in CopyFiles */,
+				A7E1AA49207EFFB4004E5949 /* RCTHeatMap.h in CopyFiles */,
+				A7E1AA4A207EFFB4004E5949 /* RCTMapView.h in CopyFiles */,
+				A7E1AA4B207EFFB4004E5949 /* RCTMarker.h in CopyFiles */,
+				A7E1AA4C207EFFB4004E5949 /* RCTOverlay.h in CopyFiles */,
+				A7E1AA4D207EFFB4004E5949 /* RCTPolygon.h in CopyFiles */,
+				A7E1AA4E207EFFB4004E5949 /* RCTPolyline.h in CopyFiles */,
+				A7E1AA4F207EFFB4004E5949 /* RCTCoordinate.h in CopyFiles */,
+				A7E1AA50207EFFB4004E5949 /* RCTUserLocation.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +417,11 @@
 					"$(SRCROOT)/../../react-native/Libraries/**",
 					"$(SRCROOT)/**",
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"$(SRCROOT)/../../../ios/**",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -415,6 +440,12 @@
 					"$(SRCROOT)/../../react-native/Libraries/**",
 					"$(SRCROOT)/**",
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"$(SRCROOT)/../../../ios/**",
+				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

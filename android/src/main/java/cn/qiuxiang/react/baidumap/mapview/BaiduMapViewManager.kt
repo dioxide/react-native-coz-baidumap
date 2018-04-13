@@ -47,7 +47,8 @@ class BaiduMapViewManager : ViewGroupManager<BaiduMapView>() {
                 "onClick", MapBuilder.of("registrationName", "onBaiduMapClick"),
                 "onLongClick", MapBuilder.of("registrationName", "onBaiduMapLongClick"),
                 "onDoubleClick", MapBuilder.of("registrationName", "onBaiduMapDoubleClick"),
-                "onStatusChange", MapBuilder.of("registrationName", "onBaiduMapStatusChange")
+                "onStatusChange", MapBuilder.of("registrationName", "onBaiduMapStatusChange"),
+                "onRegionDidChange", MapBuilder.of("registrationName", "onBaiduMapRegionDidChange")
         )
     }
 

@@ -88,8 +88,7 @@ class BaiduMapView(context: Context) : FrameLayout(context) {
         map.setOnMapStatusChangeListener(object : BaiduMap.OnMapStatusChangeListener {
             override fun onMapStatusChangeStart(status: MapStatus) {}
             override fun onMapStatusChangeStart(status: MapStatus, reason: Int) {}
-            override fun onMapStatusChange(status: MapStatus) {}
-            override fun onMapStatusChangeFinish(status: MapStatus) {
+            override fun onMapStatusChange(status: MapStatus) {
                 val data = Arguments.createMap()
                 data.putMap("center", status.target.toWritableMap())
                 data.putMap("region", status.bound.toWritableMap())
@@ -97,6 +96,15 @@ class BaiduMapView(context: Context) : FrameLayout(context) {
                 data.putDouble("overlook", status.overlook.toDouble())
                 data.putDouble("rotation", status.rotate.toDouble())
                 emit(id, "onStatusChange", data)
+            }
+            override fun onMapStatusChangeFinish(status: MapStatus) {
+                val data = Arguments.createMap()
+                data.putMap("center", status.target.toWritableMap())
+                data.putMap("region", status.bound.toWritableMap())
+                data.putDouble("zoomLevel", status.zoom.toDouble())
+                data.putDouble("overlook", status.overlook.toDouble())
+                data.putDouble("rotation", status.rotate.toDouble())
+                emit(id, "onRegionDidChange", data)
             }
         })
 

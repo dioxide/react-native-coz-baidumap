@@ -1,0 +1,2 @@
+int drawable callout 0x7f020000
+int drawable marker 0x7f020001

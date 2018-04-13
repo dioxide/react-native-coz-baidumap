@@ -16,20 +16,20 @@
 RCT_EXPORT_MODULE(BaiduMapRoute)
 
 
-RCT_EXPORT_METHOD(routPlanByCoordinate:
+RCT_EXPORT_METHOD(routePlanByCoordinate:
                   (NSDictionary *)startPoint
                   end:(NSDictionary *)endPoint
                   routeType:(NSInteger)type
                   searchWithResolver:(RCTPromiseResolveBlock)resolve
                   rejecter:(RCTPromiseRejectBlock)reject){
-    
+
     BMKPlanNode* start = [[BMKPlanNode alloc]init];
     CLLocationCoordinate2D coor = [self getCoorFromMarkerOption:startPoint];
     start.pt = coor;
     BMKPlanNode* end = [[BMKPlanNode alloc]init];
     CLLocationCoordinate2D endCoor = [self getCoorFromMarkerOption:endPoint];
     end.pt = endCoor;
-    
+
     _resolve = resolve;
     _reject = reject;
     if (!_routeSearch) {
@@ -58,7 +58,7 @@ RCT_EXPORT_METHOD(routPlanByCoordinate:
         option.from = start;
         option.to = end;
         flag = [_routeSearch ridingSearch:option];
-        
+
     }
     if(type == 3) {
         BMKWalkingRoutePlanOption *walkingRouteOption = [[BMKWalkingRoutePlanOption alloc] init];
@@ -66,7 +66,7 @@ RCT_EXPORT_METHOD(routPlanByCoordinate:
         walkingRouteOption.to = end;
         flag = [_routeSearch walkingSearch:walkingRouteOption];
     }
-    
+
     if(flag)
     {
         NSLog(@"%ld检索发送成功",type);
@@ -81,11 +81,11 @@ RCT_EXPORT_METHOD(routPlanByCoordinate:
 - (void)onGetWalkingRouteResult:(BMKRouteSearch *)searcher result:(BMKWalkingRouteResult *)result errorCode:(BMKSearchErrorCode)error {
     NSLog(@"onGetWalkingRouteResult error:%d", (int)error);
     NSMutableDictionary *body = @{}.mutableCopy;
-    
+
     if (error == BMK_SEARCH_NO_ERROR) {
         //成功获取结果
         BMKWalkingRouteLine* plan = (BMKWalkingRouteLine*)[result.routes objectAtIndex:0];
-        
+
         // 计算路线方案中的路段数目
         NSInteger size = [plan.steps count];
         NSLog(@"%ld",size);
@@ -97,21 +97,21 @@ RCT_EXPORT_METHOD(routPlanByCoordinate:
             //轨迹点总数累计
             planPointCounts += transitStep.pointsCount;
         }
-    
+
         int i = 0;
         NSMutableArray *points = [NSMutableArray arrayWithCapacity:planPointCounts];
         for (int j = 0; j < size; j++) {
             BMKWalkingStep* transitStep = [plan.steps objectAtIndex:j];
             int k=0;
             for(k=0;k<transitStep.pointsCount;k++) {
-                
+
                 CLLocationCoordinate2D transitStepCoord = BMKCoordinateForMapPoint(transitStep.points[k]);
-                
+
                 double latitude = transitStepCoord.latitude;
                 double longitude = transitStepCoord.longitude;
-                
+
                 [points addObject:@{@"latitude":@(latitude),@"longitude":@(longitude)}];
-             
+
                 i++;
             }
         }
@@ -122,17 +122,17 @@ RCT_EXPORT_METHOD(routPlanByCoordinate:
         body[@"distance"] = [NSString stringWithFormat:@"%d",plan.distance];
         body[@"points"] = points;
         body[@"count"] = [NSString stringWithFormat:@"%d", planPointCounts];
-        
+
 
         _resolve(body);
-        
+
     } else {
         body[@"errcode"] = [NSString stringWithFormat:@"%d", error];
         body[@"errmsg"] = [self getSearchErrorInfo:error];
-        
+
         _reject(@"", @"", nil);
     }
-   
+
 }
 
 
