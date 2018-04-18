@@ -6,7 +6,7 @@ import Polyline from "./polyline";
 import Polygon from "./polygon";
 import Circle from "./circle";
 import HeatMap from "./heat-map";
-//import Text from './text'
+import Text from './text'
 
 MapView.Marker = Marker;
 MapView.Callout = Callout;
@@ -15,6 +15,6 @@ MapView.Polyline = Polyline;
 MapView.Polygon = Polygon;
 MapView.Circle = Circle;
 MapView.HeatMap = HeatMap;
-//MapView.Text = Text
+MapView.Text = Text
 
 export default MapView;

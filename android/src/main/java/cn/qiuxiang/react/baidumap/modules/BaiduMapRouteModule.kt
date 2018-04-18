@@ -112,6 +112,10 @@ class BaiduMapRouteModule(context: ReactApplicationContext) : ReactContextBaseJa
         return "BaiduMapRoute"
     }
 
+    override fun canOverrideExistingModule(): Boolean {
+        return true
+    }
+
     @ReactMethod
     fun routePlanByCoordinate(starPoint: ReadableMap, endPoint: ReadableMap, routeType: Int, promise: Promise) {
         this.promise = promise

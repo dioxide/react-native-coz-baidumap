@@ -52,6 +52,7 @@ class BaiduMapView(context: Context) : FrameLayout(context) {
 
         map.setOnMapLoadedCallback {
             emit(id, "onLoad")
+            emitStatusChangeEvent(map.mapStatus)
 
             // Some bugs (probably by ReactView) cause the compass to fail to display
             // So I do some hack
@@ -89,13 +90,7 @@ class BaiduMapView(context: Context) : FrameLayout(context) {
             override fun onMapStatusChangeStart(status: MapStatus) {}
             override fun onMapStatusChangeStart(status: MapStatus, reason: Int) {}
             override fun onMapStatusChange(status: MapStatus) {
-                val data = Arguments.createMap()
-                data.putMap("center", status.target.toWritableMap())
-                data.putMap("region", status.bound.toWritableMap())
-                data.putDouble("zoomLevel", status.zoom.toDouble())
-                data.putDouble("overlook", status.overlook.toDouble())
-                data.putDouble("rotation", status.rotate.toDouble())
-                emit(id, "onStatusChange", data)
+                emitStatusChangeEvent(status)
             }
             override fun onMapStatusChangeFinish(status: MapStatus) {
                 val data = Arguments.createMap()
@@ -151,6 +146,16 @@ class BaiduMapView(context: Context) : FrameLayout(context) {
         }
     }
 
+    fun emitStatusChangeEvent(status: MapStatus) {
+        val data = Arguments.createMap()
+        data.putMap("center", status.target.toWritableMap())
+        data.putMap("region", status.bound.toWritableMap())
+        data.putDouble("zoomLevel", status.zoom.toDouble())
+        data.putDouble("overlook", status.overlook.toDouble())
+        data.putDouble("rotation", status.rotate.toDouble())
+        emit(id, "onStatusChange", data)
+    }
+
     fun setStatus(args: ReadableArray?) {
         val target = args!!.getMap(0)
         val duration = args.getInt(1)
@@ -178,11 +183,9 @@ class BaiduMapView(context: Context) : FrameLayout(context) {
         }
 
         if (target.hasKey("region")) {
-            setStatus(
-                    MapStatusUpdateFactory.newLatLngBounds(target.toLatLngBounds()), duration)
+            setStatus(MapStatusUpdateFactory.newLatLngBounds(target.getMap("region").toLatLngBounds()), duration)
         } else {
-            setStatus(
-                    MapStatusUpdateFactory.newMapStatus(mapStatusBuilder.build()), duration)
+            setStatus(MapStatusUpdateFactory.newMapStatus(mapStatusBuilder.build()), duration)
         }
     }
 

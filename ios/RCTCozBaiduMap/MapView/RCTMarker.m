@@ -11,6 +11,8 @@
     UIImage *_image;
 }
 
+@synthesize coordinate = _coordinate;
+
 - (instancetype)init {
     self = [super init];
     _image = [UIImage imageNamed:@"marker"];
@@ -38,6 +40,13 @@
 - (void)setImage:(NSString *)image {
     _annotationView.image = [UIImage imageNamed:image];
     [self updateCenterOffset];
+}
+
+// Marker's coordinate does not update immediately
+// So I reassignment mapView.centerCoordinate to trigger mapStatusChange
+- (void)setCoordinate:(CLLocationCoordinate2D)coordinate {
+    _coordinate = coordinate;
+    _mapView.centerCoordinate = _mapView.centerCoordinate;
 }
 
 - (void)setCenterOffset:(CGPoint)centerOffset {
@@ -96,7 +105,7 @@
     unsigned char green = g * 255;
     unsigned char blue = b * 255;
     unsigned char alpha = a * 255;
-    
+
     UIGraphicsBeginImageContextWithOptions(_image.size, NO, _image.scale);
     [_image drawInRect:CGRectMake(0, 0, _image.size.width, _image.size.height)];
     CGContextRef context = UIGraphicsGetCurrentContext();

@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/Coz/Sites/FreelanceProjects/drinking_app/node_modules/react-native-coz-baidumap/android/src/main/assets"/><source path="/Users/Coz/Sites/FreelanceProjects/drinking_app/node_modules/react-native-coz-baidumap/android/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Users/Coz/Sites/FreelanceProjects/drinking_app/node_modules/react-native-coz-baidumap/android/src/release/assets"/></dataSet></merger>
